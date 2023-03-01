@@ -11,6 +11,15 @@ body {
 	color: #333333;
 }
 
+.all-btn {
+	&:focus {
+		outline: none;
+	}
+	&:active {
+		transform: scale(1.03);
+	}
+}
+
 @import './block/header.scss';
 @import './block/main.scss';
 @import './block/achieve.scss';
