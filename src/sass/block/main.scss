@@ -1,10 +1,7 @@
-.section_2 {
+.link-pyromids {
 	margin-top: 69px;
 	padding-bottom: 63px;
 	background-color: #f3f3f3;
-}
-
-.section_3 {
 }
 
 .section-container {
@@ -13,17 +10,17 @@
 	padding-left: 50px;
 	padding-right: 50px;
 
-	.section_2-column-left {
+	.link-pyromids__column-left {
 		width: 400px;
 		margin-right: 30px;
 	}
 
-	.section_3-column-right {
+	.scope__column-right {
 		width: 400px;
 	}
 }
 
-.section_3-container {
+.scope__container {
 	justify-content: space-around;
 }
 
@@ -68,9 +65,6 @@
 		margin-top: 107px;
 		width: 679px;
 		height: 444px;
-		//img {
-		//	width: 100%;
-		//}
 	}
 	.column-brends {
 		margin-top: 78px;

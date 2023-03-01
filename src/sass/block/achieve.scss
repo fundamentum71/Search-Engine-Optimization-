@@ -1,20 +1,18 @@
-.section_4 {
+.achieve {
 	margin-top: 62px;
 	padding-top: 86px;
 	padding-bottom: 70px;
 	background-color: #f3f3f3;
 
-	.section_4-title {
+	.achieve__title {
 		display: flex;
 		justify-content: center;
 		font-weight: 600;
 		font-family: 'Raleway', sans-serif;
 		font-size: 1.563rem;
 	}
-	.section_4-client {
+	.achieve__client {
 		margin-top: 45px;
-		//display: flex;
-		//justify-content: center;
 		margin: 45px auto 0 auto;
 		width: 957px;
 		height: 557px;
@@ -22,11 +20,9 @@
 			width: 100%;
 		}
 	}
-	.section_4-company {
+	.achieve__company {
 		margin-top: 66px;
 		display: flex;
 		justify-content: center;
-		.company-item {
-		}
 	}
 }

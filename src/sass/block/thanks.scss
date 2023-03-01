@@ -1,0 +1,24 @@
+.thanks {
+	padding-top: 56px;
+	padding-bottom: 57px;
+	background-color: #f3f3f3;
+	display: flex;
+	justify-content: center;
+}
+.thanks__button {
+	width: 395px;
+	height: 61px;
+	background-color: #4bee6f;
+	color: #ffffff;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.562rem;
+}
+.thanks__button_text::after {
+	content: url('../../img/section7/smile.png');
+	position: relative;
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	top: 2px;
+}

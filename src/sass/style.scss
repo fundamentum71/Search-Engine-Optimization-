@@ -1,20 +1,19 @@
 @import 'libs/bootstrap-reboot.min';
 @import '_nullstyle';
-//@import 'base/variables';
 * {
 	box-sizing: border-box;
 }
 
 body {
 	max-width: 1440px;
-	//border: 1px red solid;
 	margin: 0 auto;
 	padding: 0 50px;
 	color: #333333;
 }
 
-@import './block/section_1.scss';
-@import './block/section_2_3.scss';
-@import './block/section_4.scss';
-@import './block/section_5.scss';
-@import './block/section_6.scss';
+@import './block/header.scss';
+@import './block/main.scss';
+@import './block/achieve.scss';
+@import './block/testing.scss';
+@import './block/about.scss';
+@import './block/thanks.scss';
