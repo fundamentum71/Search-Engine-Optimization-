@@ -40,6 +40,7 @@
 		margin-top: 202px;
 		display: flex;
 		justify-content: space-between;
+
 		.header__text {
 			width: 426px;
 			position: relative;
@@ -81,6 +82,7 @@
 		}
 		.header__dashboard {
 			position: relative;
+
 			.dashboard {
 				max-width: 690px;
 			}
@@ -110,11 +112,12 @@
 	.header__options {
 		display: flex;
 		max-width: 1000px;
+		justify-content: space-around;
 
 		.options-column {
 			font-family: 'Roboto', sans-serif;
-			width: 33%;
-			margin-right: 160px;
+			flex: 0 1 33.3%;
+			margin-right: 16%;
 			justify-content: center;
 			text-align: center;
 			.options-img {
